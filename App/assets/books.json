@@ -1,0 +1,65 @@
+{
+    "books": [
+        "PRAISE THE LORD",
+        {
+            "name": "Good News Bible",
+            "author": "Eileen Nyberg",
+            "language": "English",
+            "price": "$410"
+        },
+        {
+            "name": "Holy Bible",
+            "author": "ESV",
+            "language": "English",
+            "price": "$500"
+        },
+        {
+            "name": "Malayalam Bible",
+            "author": "Malayalam Bible Society",
+            "language": "Malayalam",
+            "price": "$430"
+        },
+        {
+            "name": "Pavithra Bible",
+            "author": "NIV",
+            "language": "Hindi",
+            "price": "$400"
+        },
+        {
+            "name": "Telugu Bible",
+            "author": "ERV",
+            "language": "Telugu",
+            "price": "$450"
+        },
+        {
+            "name": "Reflective Bible Journal for Kids",
+            "author": "Taryn Nergaard",
+            "language": "English",
+            "price": "$420"
+        },
+        {
+            "name": "The Gospel Made Clear to Children",
+            "author": "Jennifer Adams ",
+            "language": "English",
+            "price": "$450"
+        },
+        {
+            "name": "Bible Study Journal",
+            "author": "Millie Zoes",
+            "language": "English",
+            "price": "$425"
+        },
+        {
+            "name": "AMPLIFIED STUDY BIBLE",
+            "author": "Zondervan",
+            "language": "English",
+            "price": "$405"
+        },
+        {
+            "name": "No More Boring Bible Study",
+            "author": "Faith Womack",
+            "language": "English",
+            "price": "$455"
+        }
+    ]
+}
