@@ -5,8 +5,7 @@
             "name": "Holy Bible",
             "author": "ESV",
             "language": "English",
-            "price": "$500",
-            "image": "bible images/holy bible.webp"
+            "price": "$500"
         },
         {
             "name": "Telugu Bible",
@@ -18,8 +17,7 @@
             "name": "Pavithra Bible",
             "author": "NIV",
             "language": "Hindi",
-            "price": "$400",
-            "image": "bible images/pavitra bible.jpg"
+            "price": "$400"
         },
         {
             "name": "Tamil Bible",
