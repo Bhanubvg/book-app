@@ -1,0 +1,53 @@
+{
+    "books": [
+        {
+            "image": "/app/bible-images/goodnews-bible.webp",
+            "name": "Good News Bible",
+            "author": "Eileen Nyberg",
+            "rating": 5,
+            "price": "$410"
+        },
+        {
+            "image": "/app/bible-images/holybible.webp",
+            "name": "Holy Bible",
+            "author": "ESV",
+            "rating": 4
+        },
+        {
+            "image": "/app/bible-images/No-More-Boring-Bible-Study.webp",
+            "name": "No More Boring Bible Study",
+            "author": "Faith Womack",
+            "rating": 5
+        },
+        {
+            "image": "/app/bible-images/telugu-bible.jpg",
+            "name": "Telugu Bible",
+            "author": "ERV",
+            "rating": 5
+        },
+        {
+            "image": "/app/bible-images/Reflective-Bible-Journal-for-Kids.webp",
+            "name": "Reflective Bible Journal for Kids",
+            "author": "Taryn Nergaard",
+            "rating": 3
+        },
+        {
+            "image": "/app/bible-images/The-Gospel-Made-Clear-to-Children.webp",
+            "name": "The Gospel Made Clear to Children",
+            "author": "Jennifer Adams ",
+            "rating": 3
+        },
+        {
+            "image": "/app/bible-images/Bible-Study-Journal.webp",
+            "name": "Bible Study Journal",
+            "author": "Millie Zoes",
+            "rating": 4
+        },
+        {
+            "image": "/app/bible-images/Amplified-study-bible.webp",
+            "name": "Amplified Study Bible",
+            "author": "Zondervan",
+            "rating": 4
+        }
+    ]
+}
