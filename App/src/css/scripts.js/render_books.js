@@ -13,8 +13,14 @@ const books = await loadBooks();
 
 
 function render_book(book) {
-    return html`<book-card name="${book.name}" rating="${book.rating}" 
-    author="${book.author}" image="${book.image}"></book-card>`;
+    return html`
+        <book-card 
+            .name=${book.name}
+            .rating=${book.rating}
+            .author=${book.author}
+            .image=${book.image}>
+        </book-card>
+    `;
 }
 
 function render_all_books(books) {

@@ -2,11 +2,10 @@ import { LitElement, css, html } from 'https://cdn.jsdelivr.net/npm/lit@3.3.2/+e
 
 export class Book extends LitElement {
     static properties = {
-        image:{},
+        image: {},
         name: {},
         author: {},
         rating: { type: Number },
-        
     };
 
     static styles = css`
@@ -15,7 +14,7 @@ export class Book extends LitElement {
         }
 
         .book {
-            width: 160px;
+            width: 100%;
             border: 1px solid #e0e0e0;
             border-radius: 12px;
             overflow: hidden;
@@ -72,10 +71,10 @@ export class Book extends LitElement {
         this.name = "sample_book_name";
         this.author = "sample_author_name";
         this.rating = 4;
-        this.book_page = "App/bible images";
+        this.image = "App/bible-images/book1.jpg";
     }
 
-    get start() {
+    get stars() {
         return Array.from({ length: 5 }, (_, i) =>
             html`<span class="${i < this.rating ? 'star-filled' : 'star-empty'}">★</span>`
         );
@@ -84,7 +83,7 @@ export class Book extends LitElement {
     render() {
         return html`
         <div class="book">
-            <img class="cover" src="${this.book_page}" alt="${this.name}">
+            <img class="cover" src="${this.image}" alt="${this.name}">
             <div class="info">
                 <p class="name">${this.name}</p>
                 <p class="author">${this.author}</p>
